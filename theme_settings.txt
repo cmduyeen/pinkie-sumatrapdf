@@ -1,31 +1,35 @@
-# Pinkie Theme for SumatraPDF (Kawaii & Minimalist)
-# Copy các giá trị dưới đây và thay thế vào file SumatraPDF-settings.txt tương ứng
+﻿# ===================================================================
+# 🌸 Pinkie Theme for SumatraPDF (Siêu Kawaii & Minimalist Pastel)
+# Tác giả: cmduyeen
+# Hướng dẫn: Mở SumatraPDF -> Cài đặt (Settings) -> Cài đặt nâng cao (Advanced Options)
+# Sao chép các cấu hình bên dưới và dán vào file SumatraPDF-settings.txt
+# ===================================================================
 
-# 1. Các thiết lập chung (ở phần đầu file)
-MainWindowBackground = #fff0f3
+# 1. Thiết lập chung (ở phần đầu file)
+MainWindowBackground = #fff5f8
 NoHomeTab = true
 ShowStartPage = false
 SidebarDx = 320
-TreeFontName = Segoe UI
+TreeFontName = Quicksand
 TreeFontSize = 11
 Theme = Pinkie
 
 # 2. Cấu hình màu nền trang đọc và lựa chọn văn bản (Tìm mục FixedPageUI)
 FixedPageUI [
-	TextColor = #5c3c43
-	BackgroundColor = #fff5f6
-	SelectionColor = #ffb3c1
+	TextColor = #453b43
+	BackgroundColor = #fffdfd
+	SelectionColor = #ffb7d5
 	WindowMargin = 2 4 2 4
 	PageSpacing = 4 4
 	InvertColors = false
 	HideScrollbars = false
 ]
 
-# 3. Cấu hình màu ghi chú/đánh dấu (Tìm mục Annotations)
+# 3. Cấu hình màu ghi chú / đánh dấu highlight (Tìm mục Annotations)
 Annotations [
 	HighlightColor = #ffccd5
-	UnderlineColor = #ff4d6d
-	SquigglyColor = #ff007f
+	UnderlineColor = #d44b8b
+	SquigglyColor = #ff659c
 	StrikeOutColor = #ffb3c1
 ]
 
@@ -33,10 +37,10 @@ Annotations [
 Themes [
 	[
 		Name = Pinkie
-		TextColor = #5c3c43
-		BackgroundColor = #fff5f6
-		ControlBackgroundColor = #ffe5ec
-		LinkColor = #ff758f
+		TextColor = #453b43
+		BackgroundColor = #fff5f8
+		ControlBackgroundColor = #ffeff6
+		LinkColor = #d44b8b
 		ColorizeControls = true
 	]
 ]
